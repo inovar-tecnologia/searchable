@@ -13,6 +13,8 @@ use Illuminate\Support\Str;
  * @property string $table
  * @property string $primaryKey
  * @method string getTable()
+ * @method static self search($search, $threshold = null, $entireText = false, $entireTextOnly = false)
+ * @methid static self searchRestricted($search, $restriction, $threshold = null, $entireText = false, $entireTextOnly = false)
  */
 trait SearchableTrait
 {
